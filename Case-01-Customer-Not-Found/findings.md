@@ -2,6 +2,8 @@
 
 Query returned zero rows.
 
+I used **'WHERE'** to filter customer id.
+
 <img width="1418" height="852" alt="image" src="https://github.com/user-attachments/assets/35799d07-3312-414f-8b21-a6f40d0ad31f" />
 
 Customer record does not exist.
