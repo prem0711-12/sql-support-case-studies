@@ -1,4 +1,4 @@
-##Findings
+## Findings
 
 Query returned zero rows.
 
