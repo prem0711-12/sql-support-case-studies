@@ -14,5 +14,5 @@ This repository contains SQL investigation scenarios inspired by real-world Appl
 
 | Case | Topic |
 |--------|--------|
-| [Case 01 - Customer Not Found](./https://github.com/prem0711-12/sql-support-case-studies/tree/main/Case-01-Customer-Not-Found) |Investigating a customer account missing from the application |
+| [Case 01 - Customer Not Found](./Case-01-Customer-Not-Found/) |Investigating a customer account missing from the application |
 
