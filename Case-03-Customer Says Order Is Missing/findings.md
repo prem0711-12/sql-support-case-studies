@@ -6,16 +6,16 @@ Customer has reported that they have place order sucessfuly but their order in n
 
 Checked customer payment and order status using SQL INNER JOIN between: 
 
--Customer Table 
--Order Table 
--Transaction Table 
--Application Log Tabel
+- Customer Table 
+- Order Table 
+- Transaction Table 
+- Application Log Tabel
 
 <img width="1570" height="907" alt="image" src="https://github.com/user-attachments/assets/184e3b0c-4049-4aad-89c4-144491018e1e" />
 
-Order Status : Completed 
-Payment Status :- Success
-Log :- Order created
+- Order Status : Completed 
+- Payment Status :- Success
+- Log :- Order created
 
 # Conclusion 
 
