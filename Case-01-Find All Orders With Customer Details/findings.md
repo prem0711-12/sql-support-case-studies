@@ -1,24 +1,23 @@
-## Findings
+# Findings
 
-Query returned zero rows.
+Received Query to find the customer details using order ID 5006.
 
-I used **'WHERE'** to filter customer id.
+## Investigation
 
-<img width="1418" height="852" alt="image" src="https://github.com/user-attachments/assets/35799d07-3312-414f-8b21-a6f40d0ad31f" />
+Using SQL INNER JOIN between:
 
-Customer record does not exist.
+- Customer Table
+- Order Table
 
-Possible causes:
-
-- Incorrect customer ID
-- Registration failure
-- Data synchronization issue
+<img width="1532" height="904" alt="image" src="https://github.com/user-attachments/assets/f6ea13ed-30e0-4d76-8648-8086d1e0bf9a" />
 
 ## Conclusion
+Using order id we have found the customer detials as below : 
 
-No database issue identified.
+Customer Name : Lisa 
+Country :- India 
+Order Status : Completed.
 
-Customer record was not present in the source table.
 
 
 
