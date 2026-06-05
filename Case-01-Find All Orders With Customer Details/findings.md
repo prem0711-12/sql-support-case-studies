@@ -1,6 +1,6 @@
 # Findings
 
-Received Query to find the customer details using order ID 5006.
+Received a request to find the customer details using order ID 5006.
 
 ## Investigation
 
@@ -14,9 +14,9 @@ Using SQL INNER JOIN between:
 ## Conclusion
 Using order id we have found the customer detials as below : 
 
-- Customer Name : Lisa 
-- Country :- India 
-- Order Status : Completed.
+- Customer Name: Lisa
+- Country: India
+- Order Status: Completed
 
 
 
