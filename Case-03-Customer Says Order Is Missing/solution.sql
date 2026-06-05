@@ -1,23 +1,13 @@
--- Step 1
-
-SELECT * 
-FROM customers
-WHERE customer_id = 1001;
-
---step 2
-
-SELECT * 
-FROM orders
-WHERE customer_id = 1001;
-
--- step 3
-
-SELECT * 
-FROM transactions
-WHERE order_id = 5001;
-
--- step 4
-
-SELECT * 
-FROM application_logs
-WHERE customer_id = 1001;
+SELECT	c.customer_id,
+		o.order_id,
+        o.order_status,
+        t.payment_status,
+        l.message
+FROM customers c  
+INNER JOIN orders o 
+	on c.customer_id = o.customer_id 
+INNER JOIN transactions t 
+	on o.order_id = t.order_id
+INNER JOIN application_logs l 
+	on c.customer_id = l.customer_id
+WHERE c.customer_id = 1001;    
