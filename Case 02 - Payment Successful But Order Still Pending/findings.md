@@ -1,5 +1,5 @@
 # Findings 
-Customer has reported that payment was successful but the order status is still showing as pending. Customer has already provided order Id 
+Customer has reported that payment was successful but the order status is still showing as pending. Customer has already provided order Id. 
 
 # Investigation
 
