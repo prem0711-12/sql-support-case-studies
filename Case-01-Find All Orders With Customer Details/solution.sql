@@ -6,4 +6,4 @@ SELECT 	c.customer_id,
 FROM customers c  
 INNER JOIN orders o 
 	on c.customer_id = o.customer_id
-WHERE o.order_id = 5004;    
+WHERE o.order_id = 5006;    
