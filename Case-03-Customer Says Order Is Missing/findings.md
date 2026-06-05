@@ -10,8 +10,10 @@ Checked customer payment and order status using SQL INNER JOIN between:
 - Order Table 
 - Transaction Table 
 - Application Log Tabel
+  
 
 <img width="1570" height="907" alt="image" src="https://github.com/user-attachments/assets/184e3b0c-4049-4aad-89c4-144491018e1e" />
+
 
 - Order Status : Completed 
 - Payment Status :- Success
