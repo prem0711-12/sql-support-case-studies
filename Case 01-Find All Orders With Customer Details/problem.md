@@ -1,6 +1,6 @@
-## Case 01 - Find All Orders With Customer Details
+# Case 01 - Find All Orders With Customer Details
 
-# Incident
+## Incident
 
 Ticket: 
 
@@ -13,6 +13,6 @@ Can you verify who owns this order and its current status?
 Thanks
 
 
-# Details 
+## Details 
 
 Order Id : 5004
