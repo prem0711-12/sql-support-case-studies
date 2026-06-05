@@ -1,28 +1,13 @@
--- Step-1
-
-SELECT *
-FROM orders
-LIMIT 5;
-
--- Step-2
-
-SELECT *
-FROM orders
-WHERE order_id = 5004;
-
--- Step-3 
-
-SELECT *
-FROM transactions
-WHERE order_id = 5004;
-
--- Step-4
-
-SELECT *
-FROM application_logs
-WHERE customer_id = 1004;
-
-
-
-
-
+SELECT	c.customer_id,
+		o.order_id,
+        o.order_status,
+        t.payment_status,
+        l.message
+FROM customers c  
+INNER JOIN orders o 
+	ON c.customer_id = o.customer_id 
+INNER JOIN transactions t  
+	on o.order_id = t.order_id
+INNER Join application_logs l 
+	on	c.customer_id = l.customer_id
+WHERE o.order_id = 5004    
