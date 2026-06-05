@@ -1,39 +1,28 @@
 # Findings 
 
-Customer has provided ID.
+Customer has reported that they have place order sucessfuly but their order in not visible on application. Customer has provided thier customer ID.
 
-## step 1
+## Investigation 
 
-verfiy the customer, and the custoemr exist in our database with given ID
+Checked customer payment and order status using SQL INNER JOIN between: 
 
-<img width="1423" height="866" alt="image" src="https://github.com/user-attachments/assets/c9594ef5-e296-42f5-b014-5e59f4efa650" />
+-Customer Table 
+-Order Table 
+-Transaction Table 
+-Application Log Tabel
 
-## step 2
+<img width="1570" height="907" alt="image" src="https://github.com/user-attachments/assets/184e3b0c-4049-4aad-89c4-144491018e1e" />
 
-Checking order status.  
-
-<img width="1413" height="869" alt="image" src="https://github.com/user-attachments/assets/8df9ddeb-842c-43dd-87d8-359c6d6df598" />
-
-It was completed so no issue found in order placement 
-
-## step 3
-
-Now checking for the payment status. Need Order Id which we get previously.
-
-<img width="1419" height="868" alt="image" src="https://github.com/user-attachments/assets/04fc3d0d-fc94-4f9b-80e3-0f09512167f7" />
-
-No issue found in payment
-
-## step 4
-
-Checking application log for any error
-
-<img width="1413" height="859" alt="image" src="https://github.com/user-attachments/assets/c00b814d-760d-40e8-ae46-440768117727" />
-
-No errors found in logs.
+Order Status : Completed 
+Payment Status :- Success
+Log :- Order created
 
 # Conclusion 
-The issue is related to UI/UX. No issue identified in backend data.
+
+After checking the backend database, the order and payment details are correct. This appears that the issue is related to frontend/application issue.
+
+
+
   
 
 
