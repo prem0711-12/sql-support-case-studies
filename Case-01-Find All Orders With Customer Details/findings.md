@@ -14,9 +14,9 @@ Using SQL INNER JOIN between:
 ## Conclusion
 Using order id we have found the customer detials as below : 
 
-Customer Name : Lisa 
-Country :- India 
-Order Status : Completed.
+- Customer Name : Lisa 
+- Country :- India 
+- Order Status : Completed.
 
 
 
