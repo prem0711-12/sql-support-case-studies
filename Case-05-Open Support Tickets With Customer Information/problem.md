@@ -2,6 +2,5 @@
 
 ## Incident 
 
-- Ticket :
-    
+Ticket :    
 Provide all open support tickets along with customer details.
