@@ -19,5 +19,6 @@ This repository contains SQL investigation scenarios inspired by real-world Appl
 | [Case-03-Customer Says Order Is Missing](./Case-03-Customer%20Says%20Order%20Is%20Missing) |Customer claims they successfully placed an order yesterday but cannot see it in the application.|
 | [Case-04-Orders Stuck After Successful Payment](./Case-04-Orders%20Stuck%20After%20Successful%20Payment)| Identify orders where payment succeeded but order is still pending.|
 | [Case-05-Open Support Tickets With Customer Information](./Case-05-Open%20Support%20Tickets%20With%20Customer%20Information)|Open support tickets along with customer details.|
+|[Case-06-Countries Generating More Than $500 Revenue](./Case-06-Countries%20Generating%20More%20Than%20$500%20Revenue)| Show countries generating more than $500 revenue.|
 
  
